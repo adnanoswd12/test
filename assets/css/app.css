@@ -1,0 +1,2041 @@
+/* Artfully masterminded by ZURB  */
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+html, body {
+    min-height: 100%; : 100% !important;
+}
+
+body {
+    /*background      : url( /assets/images/site/bg/body.png ) repeat-x #ffffff;*/
+    background-color  : #fff;
+}
+
+.body-wrap {
+
+}
+
+img {
+    border          : 0px;
+}
+
+div.body-copy {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    #rightside {
+        display: none !important;
+    }
+
+    body#home #rightside {
+        display: block !important;
+    }
+}
+
+#testimonial-slider {
+    background      : #fff;
+}
+
+#testimonial-slider .panel {
+    background      : #fff;
+    padding         : 0;
+    border          : 0;
+}
+
+#testimonial-slider .panel h3 {
+    margin          : 0 !important;
+}
+
+body.microsite #testimonial-slider .panel h3 {
+    font-size       : 16px;
+    line-height     : 1.4em;
+    font-weight     : bold;
+}
+
+body.microsite #testimonial-slider .panel p {
+    line-height     : 1.4em;
+    font-size       : 12px;
+    margin-top      : 10px !important;
+    padding-right   : 5px;
+}
+
+.body-copy p {
+    font-family     : 'Gentium Basic', serif;
+    font-size       : 19px;
+    line-height     : 1.6em;
+    margin          : 0 0 19px 0 !important;
+}
+
+.body-copy ul li, .body-copy ol li {
+    font-family     : 'Gentium Basic', serif;
+    font-size       : 19px;
+    line-height     : 1.6em;
+    margin          : 0 0 0px 0 !important;
+}
+
+.body-copy ol, .body-copy ul {
+    margin-left     : 40px;
+}
+
+.body-copy h2 {
+    font-family     : Ubuntu, sans-serif;
+    font-size       : 24px;
+    line-height     : 32px;
+    font-weight     : 700;
+    margin          : 0 0 30px 0;
+}
+
+.body-copy blockquote {
+    margin          : 0 25px 30px 25px;
+    padding         : 30px;
+    background      : #f6f6f6;
+    border          : 0;
+
+}
+
+.body-copy blockquote h3,
+.body h3 {
+    font-family     : Ubuntu, sans-serif;
+    font-size       : 24px;
+    font-weight     : 300;
+    line-height     : 32px;
+    text-align      : left !important;
+    color           : #474747;
+    margin          : 15px 0 10px 15px !important;
+    font-weight     : normal;
+}
+
+.body-copy blockquote p {
+    font-size       : 14px;
+    color           : #474747;
+    line-height     : 20px;
+    margin-bottom   : 0 !important;
+}
+
+.pad20right {
+    padding-right   : 20px;
+}
+
+.logo {
+    margin-top      : 10px;
+}
+
+.nav-bar {
+    position        : absolute;
+    bottom          : .1em;
+    margin-bottom   : 0;
+    height          : 20px;
+}
+
+.nav-bar > li {
+    line-height     : 20px;
+}
+
+.nav-bar > li > a:first-child {
+    padding-bottom  : .8em;
+}
+
+.nav-bar > li > a:hover {
+    color           : #ea7f1e;
+}
+
+body.microsite-marketing .nav-bar > li > a.hover,
+body.microsite-marketing .nav-bar > li > a:hover {
+    color           : #7ac142;
+}
+
+body.microsite-marketing .nav-bar > li > a.hover:hover {
+    font-weight     : bold;
+}
+
+body.microsite-leadership .nav-bar > li > a.hover,
+body.microsite-leadership .nav-bar > li > a:hover {
+    color           : #005288;
+}
+
+body.microsite-leadership .nav-bar > li > a.hover:hover {
+    font-weight     : bold;
+}
+
+body.microsite-small-business .nav-bar > li > a.hover,
+body.microsite-small-business .nav-bar > li > a:hover {
+    color           : #008fc5;
+}
+
+body.microsite-small-business .nav-bar > li > a.hover:hover {
+    font-weight     : bold;
+}
+
+body.microsite-learning .nav-bar > li > a.hover,
+body.microsite-learning .nav-bar > li > a:hover {
+    color           : #008fc5;
+}
+
+body.microsite-learning .nav-bar > li > a.hover:hover {
+    font-weight     : bold;
+}
+
+body.microsite-leadership-women .nav-bar > li > a.hover,
+body.microsite-leadership-women .nav-bar > li > a:hover {
+    color           : #7d4199;
+}
+
+body.microsite-leadership-women .nav-bar > li > a.hover:hover {
+    font-weight     : bold;
+}
+
+
+.mobile-nav-bar {
+
+}
+
+.mobile-nav-bar > li {
+    width             : auto;
+    background        : #ea7f1e;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow   : 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow        : 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color             : white;
+    cursor            : pointer;
+    font-family       : inherit;
+    font-size         : 14px;
+    font-weight       : bold;
+    line-height       : 1;
+    margin            : 0;
+    padding           : 0;
+    outline           : none;
+    text-decoration   : none;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition   : background-color 0.15s ease-in-out;
+    -o-transition     : background-color 0.15s ease-in-out;
+    transition        : background-color 0.15s ease-in-out;
+}
+
+.mobile-nav-bar > li > a {
+    color  : #fff;
+    display: block;
+    padding: 10px 20px 11px;
+}
+
+.event-logo img {
+    padding-bottom: 10px;
+}
+
+.mobile-ribbon {
+
+}
+
+body.microsite-marketing .mobile-nav-bar > li {
+    background-color : #7ac142;
+}
+
+body.microsite-leadership .mobile-nav-bar > li {
+    background-color : #005288;
+}
+
+body.microsite-small-business .mobile-nav-bar > li {
+    background-color : #008fc5;
+}
+
+body.microsite-learning .mobile-nav-bar > li {
+    background-color : #008fc5;
+}
+
+body.microsite-leadership-women .mobile-nav-bar > li {
+    background-color : #7d4199;
+}
+
+
+.bumper {
+    margin-bottom   : 2em !important;
+}
+
+.tight {
+    margin          : 0px !important;
+    padding         : 0px !important;
+}
+
+div.search form {
+    margin          : 0;
+}
+
+div.search {
+    position        : absolute;
+    bottom          : .1em;
+    margin-bottom   : 0;
+    height          : 22px;
+    right           : 10px;
+}
+
+div.search input.page-search {
+    border              : 0;
+    height              : 20px;
+    font-size           : 13px;
+    width               : 80px;
+    display             : block;
+    margin              : 0;
+    padding             : 2px !important;
+    border-radius       : 0;
+    float               : left;
+    -webkit-transition  : all 0.7s ease 0s;
+    -moz-transition     : all 0.7s ease 0s;
+    -o-transition       : all 0.7s ease 0s;
+    transition          : all 0.7s ease 0s;
+}
+
+div.search-border {
+    border          : 1px solid #939598;
+    padding         : 0;
+    margin          : 0;
+    overflow        : hidden;
+}
+
+div.search div.submit {
+    display         : block;
+    float           : right;
+    height          : 20px;
+    width           : 20px;
+}
+
+#header {
+    margin-top      : 0em;
+    padding-bottom  : 22px;
+}
+
+#header > div {
+    padding-bottom  : 0px;
+}
+
+#content {
+    padding-top     : 18px;
+    min-height      : 700px;
+}
+
+#content-rollup {
+    margin-top      : -26px;
+}
+
+#content-rollup div.article-title {
+    padding-bottom  : 1em;
+/*    position        : relative;
+    z-index         : -20;*/
+}
+
+.relative {
+    position        : relative;
+}
+
+
+/* -----------------------------------------
+   Dropdown navigation styles
+----------------------------------------- */
+.nav-bar li > ul {
+    background          : #fff;
+    padding             : .5em;
+	border              : 1px solid #a8a9ad;
+    box-shadow          : 3px 3px 5px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow     : 3px 3px 5px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow  : 3px 3px 5px rgba(0, 0, 0, 0.6);
+	position            : absolute;
+    margin              : 0;
+    list-style          : none outside none;
+    z-index             : 100;
+    display             : none;
+    top                 : 23px;
+    min-width           : 180px;
+    margin-top          : 10px;
+    overflow            : visible;
+}
+
+.nav-bar li > ul:before {
+    content             : ' ';
+    height              : 19px;
+    z-index             : 4000;
+    position            : absolute;
+    top                 : -20px;
+    left                : 20px;
+    width               : 0;
+    height              : 0;
+    border              : 10px solid;
+    border-color        : transparent transparent #a8a9ad transparent;
+}
+
+.nav-bar > li {
+    padding             : 0 7px 0 7px !important;
+}
+
+.nav-bar > li.alpha {
+    padding-right       : 7px !important;
+    padding-left        : 0px !important;
+}
+
+.nav-bar > li > a:first-child {
+    padding             : 0 4px 15px 4px !important;
+    display             : block;
+}
+
+.nav-bar > li.alpha > a {
+    padding-left        : 0 !important;
+}
+
+.nav-bar ul li.marketing a {
+    color       : #7ac142 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.marketing a:hover {
+    background  : #7ac142 !important;
+    color       : #212121 !important;
+}
+
+.nav-bar ul li.sales a {
+    color       : #ee3124 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.sales a:hover {
+    background  : #ee3124 !important;
+    color       : #212121 !important;
+}
+
+.nav-bar ul li.management a {
+    color       : #fdb813 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.management a:hover {
+    background  : #fdb813 !important;
+    color       : #212121 !important;
+}
+
+.nav-bar ul li.leadership a {
+    color       : #005288 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.leadership a:hover {
+    background  : #005288 !important;
+    color       : #ffffff !important;
+}
+
+.nav-bar ul li.small-business a {
+    color       : #008fc5 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.small-business a:hover {
+    background  : #008fc5 !important;
+    color       : #ffffff !important;
+}
+
+.nav-bar ul li.learning a {
+    color       : #008fc5 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.learning a:hover {
+    background  : #008fc5 !important;
+    color       : #ffffff !important;
+}
+
+.nav-bar ul li.leadership-women a {
+    color       : #7d4199 !important;
+    white-space : nowrap;
+}
+
+.nav-bar ul li.leadership-women a:hover {
+    background  : #7d4199 !important;
+    color       : #ffffff !important;
+}
+
+.nav-bar ul li a span {
+    display     : block;
+    font-size   : 14px !important;
+    color       : #636365 !important;
+}
+
+.nav-bar ul li a:hover span {
+    color       : #ffffff !important;
+}
+
+.nav-bar .bubble {
+    width           : 19px;
+    height          : 20px;
+    background      : url(/assets/images/site/bg/navigation-bubble.png) no-repeat;
+    background-size : 100%;
+    color           : #fff;
+    padding         : 0px 0 0 6px;
+    font-weight     : bold;
+    position        : absolute;
+    top             : -10px;
+    right           : 0px;
+    font-size       : 11px;
+    line-height     : 18px;
+}
+
+
+body.microsite-marketing .nav-bar > li.active > a {
+    border-color    : #7ac142;
+}
+
+body.microsite-leadership .nav-bar > li.active > a {
+    border-color    : #005288;
+}
+
+body.microsite-small-business .nav-bar > li.active > a {
+    border-color    : #008fc5;
+}
+
+body.microsite-learning .nav-bar > li.active > a {
+    border-color    : #008fc5;
+}
+
+body.microsite-leadership-women .nav-bar > li.active > a {
+    border-color    : #7d4199;
+}
+
+/* -----------------------------------------
+   Tab Styles
+----------------------------------------- */
+.tabs dd a, .tabs li a {
+    padding     : 0px 16px;
+}
+
+
+/* -----------------------------------------
+   Register Form Styles
+----------------------------------------- */
+body.register input[type=text],
+body.register select {
+    padding         : 5px;
+    width           : auto;
+    display         : inline;
+    margin-right    : 10px;
+    margin-left     : 4px;
+}
+
+body.register span.small {
+    font-size       : 10px;
+}
+
+body.register div.error {
+    background-color: #FFB6C1;
+    padding         :20px;
+    margin-bottom   : 20px;
+    border          : 3px solid red;
+}
+
+body.register div.form-field {
+    float           : left;
+    width           : 180px;
+    margin          : 0px 10px 0px 0px;
+    padding         : 0px 10px 5px 0px;
+}
+
+body.register div.form-field em {
+    color           : red;
+    font-weight     : bold;
+}
+
+body.register div.form-container {
+    float           : left;
+    width           : 426px;
+    margin          : 0px 0px 0px 0px;
+}
+
+body.register div.form-summary {
+    float           : left;
+    width           : 191px;
+    background      : #eee;
+    border          : 1px solid #666;
+    margin-top      : 18px;
+}
+
+body.register div.form-summary div {
+    padding         : 15px;
+}
+
+body.register div.form-container div {
+    float           : left;
+    width           : 180px;
+    margin          : 0px 10px 0px 0px;
+}
+
+body.register div.form-field input {
+    width           : 170px;
+}
+
+body.register label.error {
+    font-size       : 10px;
+    color           : red;
+}
+
+body.register input.next-button {
+    font-weight     : bold;
+    color           : green;
+    padding         : 10px;
+    cursor          : pointer;
+}
+
+body.register div.input {
+    padding-bottom  : 5px;
+}
+
+body.register div.input.radio {
+    padding-bottom  : 10px;
+}
+
+body.register div.reg-right div.input.text {
+    padding-bottom  : 10px;
+}
+
+body.register div.text label,
+body.register div.select label {
+    float           : left;
+    width           : 130px;
+    padding-top     : 6px;
+}
+
+body.register div.radio label {
+    width           : auto;
+    display         : inline;
+}
+
+body.register div.text label.error,
+body.register div.select label.error {
+    float           : none;
+    font-size       : 10px;
+    padding-left    : 134px;
+    color           : red;
+    width           : 260px;
+    margin-top      : -6px;
+    padding-top     : 0;
+}
+
+body.register div.radio strong {
+    font-weight     : normal;
+    display         : block;
+    float           : left;
+    width           : 130px;
+}
+
+body.register div.error {
+    margin          : 20px 0px;
+    display         : none;
+}
+
+body.register input.error {
+    border          : 2px solid red;
+}
+
+body.register select.error {
+    border          : 2px solid red;
+}
+
+body.register img.credit-card {
+    cursor          : pointer;
+}
+
+body.register div.center {
+    text-align      : center;
+}
+
+body.register a#show-promo {
+    font-size       : 13px;
+    font-weight     : bold;
+}
+
+body.register div.promo {
+    display         : none;
+    padding-top     : 12px;
+    margin-top      : 8px;
+    border-top      : 1px solid #999;
+}
+
+body.register div.apply-promo {
+    padding         : 0 0 0 160px;
+    margin          : 0;
+}
+
+body.register div.apply-promo a {
+    font-size       : 10px;
+    line-height     : 10px;
+}
+
+body.register div#extra-attendees {
+    margin          : 0px 0px 50px 0px;
+    overflow        : hidden;
+}
+
+body.register div#extra-attendees .attendee {
+    display         : none;
+    padding         : 9px 0 6px 0;
+    overflow        : hidden;
+}
+
+body.register div#extra-attendees h2 {
+    margin-bottom   : 0px;
+}
+
+body.register div#extra-attendees label {
+    font-size       : 11px;
+    font-weight     : bold;
+    display         : block;
+    float           : none;
+    line-height     : 14px;
+}
+
+body.register button#complete-order {
+    font-weight     : bold;
+    color           : green;
+    cursor          : pointer;
+}
+
+body.register button#complete-order span {
+    padding             : 10px 40px 10px 10px;
+    display             : block;
+    background-image    : url('../images/success.png');
+    background-repeat   : no-repeat;
+    background-position : right center;
+}
+
+body.register button#complete-order span.wait {
+    background-image    : url('/assets/images/site/icons/clock.png');
+}
+
+body.register div.secure-icon {
+    background          : transparent url(assets/images/locked.png) no-repeat scroll 0 0;
+    margin-bottom       : 30px;
+    padding-left        : 45px;
+    font-size           : 12px;
+    line-height         : 17px;
+    margin-top          : 20px;
+}
+
+body.register em {
+    color: red;
+}
+
+body.register span.price {
+    font-size   : 11px;
+}
+
+body.register div.error-msg {
+    display     : none;
+}
+
+#ticket-box div.input {
+    overflow            : hidden;
+    padding-bottom      : 5px;
+}
+
+#ticket-box span {
+    float               : left;
+    display             : block;
+    padding-top         : 6px;
+}
+
+
+/* -----------------------------------------
+   Content Type Filters
+----------------------------------------- */
+@media only screen and (max-width: 960px) {
+    .sub-nav.filter dt, .sub-nav.filter dd {
+        font-size   : .9em;
+    }
+}
+
+.sub-nav.filter a {
+    color       : #666;
+}
+
+.sub-nav.filter dd.marketing.active a {
+    background-color: #7ac142;
+}
+
+.sub-nav.filter dd.management.active a {
+    background-color: #fdb813;
+}
+
+.sub-nav.filter dd.sales.active a {
+    background-color: #ee3124;
+}
+
+.sub-nav.filter dd.leadership.active a {
+    background-color: #005288;
+}
+
+.sub-nav.filter dd.small-business.active a {
+    background-color: #008fc5;
+}
+
+.sub-nav.filter dd.learning.active a {
+    background-color: #008fc5;
+}
+
+.sub-nav.filter dd.leadership-women.active a {
+    background-color: #7d4199;
+}
+
+.sub-nav.filter dd.innovation.active a {
+    background-color: #6d2c91;
+}
+
+
+/* -----------------------------------------
+   Slider Style
+----------------------------------------- */
+div#slider {
+    max-height          : 400px !important;
+    margin-bottom       : 40px;
+}
+
+div#slider img {
+
+}
+
+div.slider-container {
+    position            : relative;
+    overflow            : visible;
+    min-height          : 10px;
+}
+
+div.fade {
+    background          : url(/assets/images/site/bg/fade.png) repeat-x;
+    min-height          : 10px;
+    position            : absolute;
+    top                 : 0px;
+    width               : 100%;
+    z-index             : 1;
+}
+
+div.timer {
+    display             : none !important;
+}
+
+
+
+/* -----------------------------------------
+   Social Sidebar
+----------------------------------------- */
+@media only screen and (max-width: 960px) {
+    .columns div.social {
+        font-size   : .6em !important;
+    }
+
+    div.social dd img {
+        width       : 80% !important;
+    }
+
+    div.social dt {
+        font-size           : 0.7em !important;
+        line-height         : 1.2em;
+    }
+
+    div.social dt b {
+        font-size           : 1.6em !important;
+    }
+}
+
+
+.columns div.social {
+    border              : 1px solid #dbdbdb;
+    box-shadow          : 3px 3px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow     : 3px 3px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow  : 3px 3px 5px rgba(0, 0, 0, 0.1);
+    text-align          : center;
+    padding             : 1em 0;
+    color               : #939598;
+    font-size           : .9em;
+}
+
+div.social dl {
+    margin              : 1em 0 0 0;
+}
+
+div.social dt {
+    font-size           : 0.8em;
+    margin-bottom       : 2em;
+    line-height         : 1.2em;
+    font-family         : 'Gentium Basic', serif;
+}
+
+div.social dt b {
+    font-size           : 1.9em;
+    font-family         : 'Ubuntu', sans-serif;
+}
+
+div.social .icon {
+    height          : 40px;
+    width           : 40px;
+    display         : block;
+    margin          : 0 auto 5px;
+    background-size : contain;
+}
+
+.social .icon-facebook {
+    background  : url(/assets/images/site/icons/facebook.png) no-repeat;
+}
+
+.social .icon-facebook:hover {
+    background  : url(/assets/images/site/icons/facebook-colour.png) no-repeat;
+    background-size : contain;
+}
+
+.social .icon-youtube {
+    background  : url(/assets/images/site/icons/youtube.png) no-repeat;
+}
+
+.social .icon-youtube:hover {
+    background  : url(/assets/images/site/icons/youtube-colour.png) no-repeat;
+    background-size : contain;
+}
+
+.social .icon-twitter {
+    background  : url(/assets/images/site/icons/twitter.png) no-repeat;
+}
+
+.social .icon-twitter:hover {
+    background  : url(/assets/images/site/icons/twitter-colour.png) no-repeat;
+    background-size : contain;
+}
+
+.social .icon-linkedin {
+    background  : url(/assets/images/site/icons/linkedin.png) no-repeat;
+}
+
+.social .icon-linkedin:hover {
+    background  : url(/assets/images/site/icons/linkedin-colour.png) no-repeat;
+    background-size : contain;
+}
+
+.social .icon-rss {
+    background  : url(/assets/images/site/icons/rss.png) no-repeat;
+}
+
+.social .icon-rss:hover {
+    background  : url(/assets/images/site/icons/rss-colour.png) no-repeat;
+    background-size : contain;
+}
+
+.social .icon-mail {
+    background  : url(/assets/images/site/icons/mail.png) no-repeat;
+}
+
+.social .icon-mail:hover {
+    background  : url(/assets/images/site/icons/mail-colour.png) no-repeat;
+    background-size : contain;
+}
+
+.social .icon-star {
+    background  : url(/assets/images/site/icons/star.png) no-repeat;
+}
+
+.social .icon-star:hover {
+    background  : url(/assets/images/site/icons/star-colour.png) no-repeat;
+    background-size : contain;
+}
+
+ul.social .icon {
+    height          : 16px;
+    width           : 16px;
+    display         : block;
+    margin          : 0 auto 5px;
+    background-size : contain;
+}
+
+dl.social .icon {
+    height          : 16px;
+    width           : 16px;
+    display         : block;
+    float           : left;
+    margin          : 4px 7px 0 0;
+    background-size : contain;
+}
+
+
+dl.social dt {
+    border-bottom   : 1px solid #ededed;
+    padding         : 1em .5em 1em 0px;
+    text-align      : left;
+    margin          : 0;
+    margin-right    : 25px;
+}
+
+ul.social {
+    padding-left    : 30px;
+}
+
+ul.social li {
+    margin-left    : 5px;
+    margin-top     : 1px;
+}
+
+/* -----------------------------------------
+   Top Right Navigation
+----------------------------------------- */
+
+ul.top-right li {
+    font-size       : 11px;
+    margin-left     : 10px;
+    padding-left    : 10px;
+    border-left     : 1px solid #ddd;
+}
+
+ul.top-right li:first-child {
+    border          : 0;
+}
+
+ul.top-right li a {
+    color           : #888;
+    text-decoration : none;
+}
+
+/* -----------------------------------------
+   Coming Soon Event Sidebar
+----------------------------------------- */
+.coming-soon {
+    background      : url( /assets/images/site/bg/stripes/subtle.png );
+}
+
+.coming-soon .event a.bubble {
+    width               : 25px;
+    height              : 33px;
+    display             : block;
+    z-index             : 20000;
+    position            : absolute;
+    right               : -32px;
+    top                 : 15px;
+    background-size     : 100%;
+    text-indent         : -9999px;
+}
+
+a.bubble.marketing {
+    background          : url(/assets/images/site/bg/marketing-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.marketing,
+a.bubble.marketing:hover {
+    background          : url(/assets/images/site/bg/marketing-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.leadership {
+    background          : url(/assets/images/site/bg/leadership-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.leadership,
+a.bubble.leadership:hover {
+    background          : url(/assets/images/site/bg/leadership-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.small-business {
+    background          : url(/assets/images/site/bg/small-business-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.small-business,
+a.bubble.small-business:hover {
+    background          : url(/assets/images/site/bg/small-business-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.learning {
+    background          : url(/assets/images/site/bg/learning-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.learning,
+a.bubble.learning:hover {
+    background          : url(/assets/images/site/bg/learning-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.leadership-women {
+    background          : url(/assets/images/site/bg/leadership-women-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.leadership-women,
+a.bubble.leadership-women:hover {
+    background          : url(/assets/images/site/bg/leadership-women-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.management {
+    background          : url(/assets/images/site/bg/management-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.management,
+a.bubble.management:hover {
+    background          : url(/assets/images/site/bg/management-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.sales {
+    background          : url(/assets/images/site/bg/sales-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.sales,
+a.bubble.sales:hover {
+    background          : url(/assets/images/site/bg/sales-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.innovation {
+    background          : url(/assets/images/site/bg/innovation-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.innovation,
+a.bubble.innovation:hover {
+    background          : url(/assets/images/site/bg/innovation-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+a.bubble.general {
+    background          : url(/assets/images/site/bg/general-bubble.png) no-repeat;
+    background-size     : 100%;
+}
+
+div.event.hover a.bubble.general,
+a.bubble.general:hover {
+    background          : url(/assets/images/site/bg/general-bubble-on.png) no-repeat;
+    background-size     : 100%;
+}
+
+
+/* -----------------------------------------
+   Article Feature Boxes
+----------------------------------------- */
+
+article {
+
+}
+
+article h4 {
+    font-size       : 11px;
+    line-height     : 18px;
+    color           : #474747;
+    font-family     : Ubuntu;
+    font-weight     : 400;
+    margin          : 0;
+    text-transform  : none;
+}
+
+h4.plain em,
+h4.plain i,
+h4.plain strong,
+h4.plain b {
+    font-style      : normal;
+}
+
+
+article h2 {
+    font-size       : 17px;
+    line-height     : 23px;
+    color           : #000;
+    font-family     : Ubuntu;
+    font-weight     : 400;
+    margin-top      : 0;
+    margin-bottom   : 5px;
+}
+
+#content-rollup p {
+/*    font-family     : 'Gentium Basic', serif;
+    font-size       : 17px;
+    line-height     : 1.5em;*/
+}
+
+article p {
+    font-family     : 'Gentium Basic', serif;
+    font-size       : 15px;
+    line-height     : 22px;
+}
+
+article div.summary {
+    border          : 1px solid #eaeaea;
+    padding         : 1em;
+    position        : relative;
+    font-size       : 12px;
+}
+
+article div.summary p {
+    font-size       : 13px;
+    line-height     : 17px;
+    margin-bottom   : 0px;
+}
+
+article div.summary div.read-more {
+    position        : absolute;
+    bottom          : 10px;
+    width           : 90%;
+    text-align      : center;
+}
+
+article div.summary div.image img:hover {
+	-ms-filter      : "progid:DXImageTransform.Microsoft.Alpha(Opacity=8)";
+	filter          : alpha(opacity=8);
+	-moz-opacity    : 0.8;
+	-khtml-opacity  : 0.8;
+	opacity         : 0.8;
+}
+
+article div.summary-bottom {
+    height              : 16px;
+    background          : url( /assets/images/site/bg/article-summary-bottom.png ) no-repeat;
+    background-position : center top;
+    background-size     : contain;
+}
+
+
+article div.summary blockquote.marketing-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #7ac142 url(/assets/images/site/bg/stripes/white.png);
+}
+
+article div.summary blockquote.management-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #fdb813 url(/assets/images/site/bg/stripes/white.png);
+}
+
+article div.summary blockquote.leadership-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #005288 url(/assets/images/site/bg/stripes/white.png);
+}
+
+article div.summary blockquote.small-business-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #008fc5 url(/assets/images/site/bg/stripes/light-blue.png);
+}
+
+article div.summary blockquote.learning-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #008fc5 url(/assets/images/site/bg/stripes/light-blue.png);
+}
+
+article div.summary blockquote.leadership-women-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #008fc5 url(/assets/images/site/bg/stripes/purple.png);
+}
+
+article div.summary blockquote.sales-highlight {
+    margin              : -1em -1em .2em -1em;
+    padding             : 1em 1em 1em 1em;
+    background          : #ee3124 url(/assets/images/site/bg/stripes/white.png);
+}
+
+.button.marketing {
+    background          : #7ac142 !important;
+    color               : #ffffff !important;
+    border-color        : #7ac142 !important
+}
+
+.button.management {
+    background          : #fdb813 !important;
+    color               : #222222 !important;
+    border-color        : #fdb813 !important;
+}
+
+.button.leadership {
+    background          : #005288 !important;
+    color               : #ffffff !important;
+    border-color        : #005288 !important;
+}
+
+.button.small-business {
+    background          : #008fc5 !important;
+    color               : #ffffff !important;
+    border-color        : #008fc5 !important;
+}
+
+.button.learning {
+    background          : #008fc5 !important;
+    color               : #ffffff !important;
+    border-color        : #008fc5 !important;
+}
+
+
+.button.leadership-women {
+    background          : #7d4199 !important;
+    color               : #ffffff !important;
+    border-color        : #7d4199 !important;
+}
+
+.button.sales {
+    background          : #ee3124 !important;
+    color               : #ffffff !important;
+    border-color        : #ee3124 !important;
+}
+
+
+/* -----------------------------------------
+   Bottom Shadows
+----------------------------------------- */
+div.page-bottom {
+    height              : 27px;
+    background          : url( /assets/images/site/bg/page-bottom.png ) no-repeat;
+    background-position : center top;
+    background-size     : contain;
+}
+
+div.sidebar-bottom {
+    height              : 14px;
+    background          : url( /assets/images/site/bg/sidebar-bottom.png ) no-repeat;
+    background-position : center top;
+    background-size     : contain;
+}
+
+
+/* -----------------------------------------
+   Content Stripes
+----------------------------------------- */
+div.stripes {
+    height          : 17px;
+    margin-bottom   : .8em;
+}
+
+div.stripes strong {
+    padding         : 0em .4em 0em .4em;
+    float           : left;
+    display         : block;
+    font-weight     : 500;
+    font-size       : 11px;
+    line-height     : 17px;
+    /*font-weight     : normal;*/
+}
+
+div.stripes.orange, div.stripes.general {
+    background      : url( /assets/images/site/bg/stripes/orange.png ) repeat-x transparent;
+}
+
+div.stripes.orange strong, div.stripes.general strong {
+    background      : #ea7f1e;
+    color           : #fff;
+}
+
+div.stripes.management {
+    background      : url( /assets/images/site/bg/stripes/yellow.png ) repeat-x transparent;
+}
+
+div.stripes.management strong {
+    background      : #fdb813;
+    color           : #222;
+}
+
+div.stripes.sales {
+    background      : url( /assets/images/site/bg/stripes/red.png ) repeat-x transparent;
+}
+
+div.stripes.sales strong {
+    background      : #ee3124;
+    color           : #fff;
+}
+
+div.stripes.marketing {
+    background      : url( /assets/images/site/bg/stripes/green.png ) repeat-x transparent;
+}
+
+div.stripes.marketing strong {
+    background      : #7ac142;
+    color           : #fff;
+}
+
+div.stripes.leadership {
+    background      : url( /assets/images/site/bg/stripes/blue.png ) repeat-x transparent;
+}
+
+div.stripes.leadership strong {
+    background      : #005288;
+    color           : #fff;
+}
+
+div.stripes.small-business {
+    background      : url( /assets/images/site/bg/stripes/light-blue.png ) repeat-x transparent;
+}
+
+div.stripes.small-business strong {
+    background      : #008fc5;
+    color           : #fff;
+}
+
+div.stripes.learning {
+    background      : url( /assets/images/site/bg/stripes/light-blue.png ) repeat-x transparent;
+}
+
+div.stripes.learning strong {
+    background      : #008fc5;
+    color           : #fff;
+}
+
+div.stripes.leadership-women {
+    background      : url( /assets/images/site/bg/stripes/purple.png ) repeat-x transparent;
+}
+
+div.stripes.leadership-women strong {
+    background      : #7d4199;
+    color           : #fff;
+}
+
+
+div.stripes.innovation {
+    background      : url( /assets/images/site/bg/stripes/purple.png ) repeat-x transparent;
+}
+
+div.stripes.innovation strong {
+    background      : #6d2c91;
+    color           : #fff;
+}
+
+div.stripes.grey {
+    background      : url( /assets/images/site/bg/stripes/grey.png ) repeat-x transparent;
+}
+
+div.stripes.black {
+    background      : url( /assets/images/site/bg/stripes/black.png ) repeat-x transparent;
+}
+
+div.stripes strong.white {
+    background      : #fff !important;
+    color           : #282828 !important;
+    padding         : 0 .4em 0 0 !important;
+    font-size       : 17px;
+    line-height     : 14px;
+    height          : 17px;
+    font-weight     : normal;
+}
+
+div.stripes strong.grey {
+    background      : #202324 !important;
+    color           : #ffffff !important;
+    padding         : 0 .4em 0 0 !important;
+    font-size       : 17px;
+    line-height     : 14px;
+    height          : 17px;
+    font-weight     : normal;
+}
+
+
+/* -----------------------------------------
+   Video Container Styles
+----------------------------------------- */
+.flex-video.youtube-nobar {
+    padding-bottom: 53.5%;
+}
+
+body.microsite .flex-video.youtube-nobar {
+    padding-bottom: 50.5%;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container video,
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* -----------------------------------------
+   Footer Styles
+----------------------------------------- */
+footer {
+    background : #202324;
+    padding-top: 1em;
+    color      : #ffffff;
+    margin-top : 80px;
+}
+
+footer h5 {
+    text-transform  : uppercase;
+    color           : #fff;
+    font-size       : 20px;
+}
+
+footer .about {
+
+}
+
+footer .link-list li a {
+    font-size       : 11px !important;
+    color           : #ffffff;
+}
+
+
+/* -----------------------------------------
+   Speaker Carousel
+----------------------------------------- */
+div.sponsors div.caroufredsel_wrapper {
+    margin-left     : 20px !important;
+}
+
+.carousel {
+    padding         : 0 20px;
+    position        : relative;
+    margin-left     : 0;
+}
+
+.carousel ul {
+    margin          : 0;
+    padding         : 0;
+    list-style      : none;
+    display         : block;
+}
+
+.carousel li {
+    text-align      : center;
+    padding         : 0;
+    display         : block;
+    float           : left;
+    position        : relative;
+}
+
+.carousel li a {
+    color           : #fff;
+}
+
+.carousel li a:hover {
+    color           : #ea7f1e
+}
+
+
+
+.carousel li div {
+    position        : absolute;
+    bottom          : 0px;
+    width           : 100%;
+    z-index         : 20000;
+}
+
+.carousel li div div {
+    font-family     : 'Ubuntu Condensed';
+    position        : relative;
+    background      : #000;
+    padding         : 1px;
+    text-align      : center;
+    zoom            : 1;
+    filter          : alpha(opacity=80);
+    opacity         : 0.80;
+    font-size       : 14px;
+    margin-left     : 2px;
+}
+
+.carousel-prev {
+    position        : absolute;
+    top             : 48px;
+    left            : 10px;
+    width           : 20px;
+    height          : 20px;
+    background      : url(/assets/images/site/icons/arrow-left-black.png) no-repeat;
+    background-size : 100%;
+    text-indent     : -9999px;
+}
+
+.carousel-next {
+    position        : absolute;
+    top             : 48px;
+    right           : 10px;
+    width           : 20px;
+    height          : 20px;
+    background      : url(/assets/images/site/icons/arrow-right-black.png) no-repeat;
+    background-size : 100%;
+    text-indent     : -9999px;
+
+}
+
+/* -----------------------------------------
+   Sponsor Carousel
+----------------------------------------- */
+body.microsite #carousel {
+    position        : absolute !important;
+}
+
+body.microsite div.caroufredsel_wrapper {
+    margin-left     : 20px !important;
+}
+
+
+/* -----------------------------------------
+   Event Tag Colours
+----------------------------------------- */
+.management {
+    color           : #fdb813;
+}
+
+a.marketing {
+    color           : #7ac142 !important;
+}
+
+.marketing {
+    color           : #7ac142;
+}
+
+.sales {
+    color           : #ee3124;
+}
+
+.leadership {
+    color           : #005288;
+}
+
+footer .leadership {
+    color           : #1c73ad;
+}
+
+.small-business {
+    color           : #008fc5;
+}
+
+footer .small-business {
+    color           : #008fc5;
+}
+
+
+.learning {
+    color           : #008fc5;
+}
+
+footer .learning {
+    color           : #008fc5;
+}
+
+
+.leadership-women {
+    color           : #7d4199;
+}
+
+footer .leadership-women {
+    color           : #7d4199;
+}
+
+.innovation {
+    color           : #6d2c91;
+}
+
+.general {
+    color           : #ea7f1e;
+}
+
+.bg-marketing {
+    background-color: #7ac142;
+}
+
+.bg-management {
+    background-color: #fdb813;
+}
+
+.bg-sales {
+    background-color: #ee3124;
+}
+
+.bg-leadership {
+    background-color: #005288;
+}
+
+.bg-small-business {
+    background-color: #008fc5;
+}
+
+.bg-learning {
+    background-color: #008fc5;
+}
+
+
+.bg-leadership-women {
+    background-color: #7d4199;
+}
+
+.bg-innovation {
+    background-color: #6d2c91;
+}
+
+.bg-general {
+    background-color: #ea7f1e;
+}
+
+.bg-grey {
+    background-color: #eeeeee;
+}
+
+.border-marketing {
+    background-color: #fff;
+    border-color: #7ac142;
+}
+
+.border-management {
+    background-color: #fff;
+    border-color: #fdb813;
+}
+
+.border-sales {
+    background-color: #fff;
+    border-color: #ee3124;
+}
+
+.border-leadership {
+    background-color: #fff;
+    border-color: #005288;
+}
+
+.border-small-business {
+    background-color: #fff;
+    border-color: #008fc5;
+}
+
+.border-learning {
+    background-color: #fff;
+    border-color: #008fc5;
+}
+
+.border-leadership-women {
+    background-color: #fff;
+    border-color: #7d4199;
+}
+
+.border-innovation {
+    background-color: #fff;
+    border-color: #6d2c91;
+}
+
+.border-general {
+    background-color: #fff;
+    border-color: #ea7f1e;
+}
+
+.border-grey {
+    background-color: #fff;
+    border-color: #eeeeee;
+}
+
+
+/* -----------------------------------------
+   Sign-up Forms & etc
+----------------------------------------- */
+div.dark-form {
+    padding         : 20px;
+}
+
+div.dark-form label {
+    color           : #fff;
+}
+
+div.dark-form div.checkbox {
+    position        : relative;
+}
+
+div.dark-form div.checkbox label {
+    color           : #fff;
+    font-weight     : normal;
+    font-size       : 12px;
+    line-height     : 18px;
+    display         : inline;
+    position        : absolute;
+    padding-left    : 10px;
+}
+
+div.dark-form label em {
+    color           : red;
+}
+
+div.dark-form input[type=text] {
+    background      : #363636;
+    border-color    : #262626;
+    color           : #fff;
+}
+
+div.dark-form select {
+    margin          : 0;
+    font-size       : 14px;
+    margin          : 0 0 12px 0;
+    /*padding         : 6px 5px;*/
+    height          : 32px;
+}
+
+div.dark-form select,
+div.dark-form select option{
+    background      : #363636;
+    border-color    : #262626;
+    color           : #fff;
+}
+
+div.dark-form a.cancel {
+    color           : #fff;
+    float           : right;
+    padding         : 12px 20px 0 0;
+    font-size       : 13px;
+}
+
+div.dark-form a.cancel:hover {
+    text-decoration : underline;
+}
+
+div.dark-form input,
+div.dark-form select {
+    margin-bottom   : 0;
+}
+
+div.dark-form div.input {
+    padding-bottom  : 16px;
+}
+
+div.dark-form label.error,
+div.dark-form  div.error-message {
+    color           : red;
+    font-weight     : normal;
+    margin          : 0 0 10px 0;
+    padding         : 0;
+    font-size       : 11px;
+}
+
+
+/* -----------------------------------------
+   Event Microsites
+----------------------------------------- */
+a.download-pdf {
+    color           : #242424;
+    background      : url(/assets/images/site/icons/pdf.png) no-repeat 0px 3px;
+    padding-left    : 24px;
+    line-height     : 18px;
+}
+
+a.download-pdf:hover {
+    color           : #e37a1e;
+}
+
+a.share-event {
+    color           : #242424;
+    background      : url(/assets/images/site/icons/share.png) no-repeat 0px 3px;
+    padding-left    : 24px;
+    line-height     : 18px;
+    cursor          : default;
+
+}
+
+a.share-event:hover {
+    color           : #242424;
+}
+
+div.add-to-calendar {
+    color           : #242424;
+    background      : url(/assets/images/site/icons/calendar.png) no-repeat 0px 0px;
+    padding-left    : 24px;
+    line-height     : 18px;
+}
+
+p.event-description span {
+    font-size       : 18px;
+    line-height     : 26px;
+}
+
+p.event-description {
+    font-size       : 14px;
+}
+
+p.event-description em {
+    color           : #000;
+    font-weight     : bold;
+    font-style      : normal;
+}
+
+
+/* -----------------------------------------
+   Misc Typography
+----------------------------------------- */
+.content ul {
+    margin-left : 30px;
+}
+
+p.callout {
+    float       : right;
+    width       : 240px;
+    background  : #efefef;
+    /*background  : url( /assets/images/site/bg/stripes/subtle.png );*/
+    border      : 1px solid #ddd;
+    padding     : 20px;
+    margin      : 10px -40px 12px 20px !important;
+    font-size   : 18px;
+    font-family : Ubuntu;
+}
+
+/* -----------------------------------------
+   Accordian
+----------------------------------------- */
+.bottom-nav {
+    padding   : 15px;
+    background: #efefef;
+    margin    : 30px 0;
+}
+
+.bottom-nav p:last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
+
+
+.accordion {
+    margin : 1em 0;
+}
+
+.accordion h4 {
+    background     : url('/assets/images/site/bg/accordion-default.png') no-repeat right top #f67a08;
+    color          : #fff;
+    cursor         : pointer;
+    margin         : 3px 0 0 0;
+    padding        : 6px 10px 6px 15px;
+    font-weight    : bold;
+    font-size      : 16px;
+    text-decoration: none;
+}
+
+.accordion h4:hover {
+    opacity: 0.9;
+}
+
+
+.accordion h4.current {
+    background: url('/assets/images/site/bg/accordion-active.png') no-repeat right top #222222;
+    cursor    : default
+}
+
+.accordion h4.current:hover {
+    opacity: 0.9;
+}
+
+.accordion div.pane {
+    padding   : 15px;
+    display   : none;
+    background: #efefef;
+}
+
+.accordion div.pane div.indent {
+    margin-left: 20px;
+}
+
+.accordion div.pane p:last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
+
+
+
+/* -----------------------------------------
+   Helper Styles
+----------------------------------------- */
+.shadow {
+    -moz-box-shadow     : 2px 2px 5px 1px #ccc;
+    -webkit-box-shadow  : 2px 2px 5px 1px #ccc;
+    box-shadow          : 2px 2px 5px 1px #ccc;
+}
+
+.no-wrap {
+    white-space : nowrap;
+}
+
+/* -----------------------------------------
+   Fix for offcanvas bug throwing off disqus
+----------------------------------------- */
+#disqus_thread [role="complementary"] {
+    margin-left : 0 !important;
+    float       : none !important;
+}
+
+
+/* -----------------------------------------
+   Status messages
+----------------------------------------- */
+#flashMessage, #authMessage, div.error-msg {
+    border              : 2px solid;
+    margin-bottom       : 20px;
+    padding             : 15px 10px 15px 50px;
+    background-repeat   : no-repeat;
+    background-position : 10px center;
+    line-height         : 18px;
+}
+
+#flashMessage.info, #authMessage.info, div.flash-info, div.flash_info {
+    color               : #00529B;
+    border-color        : #00529B;
+    background-color    : #BDE5F8;
+    background-image    : url('/assets/images/site/icons/info.png');
+}
+
+#flashMessage.success, #authMessage.success, div.flash-success, div.flash_success {
+    color               : #4F8A10;
+    border-color        : #4F8A10;
+    background-color    : #DFF2BF;
+    background-image    : url('/assets/images/site/icons/success.png');
+}
+
+#flashMessage.warning, #authMessage.warning, div.flash-warning, div.flash_warning {
+    color               : #9F6000;
+    border-color        : #9F6000;
+    background-color    : #FEEFB3;
+    background-image    : url('/assets/images/site/icons/warning.png');
+}
+
+#flashMessage.error, #authMessage.error, div.flash-error, div.flash_error {
+    color               : #D8000C;
+    border-color        : #D8000C;
+    background-color    : #FFBABA;
+    background-image    : url('/assets/images/site/icons/error.png');
+}
+
+
+/* -----------------------------------------
+   Media queries for smaller screen sizes
+----------------------------------------- */
+@media only screen and (max-width: 960px) {
+    .nav-bar > li > a {
+        font-size   : 17px !important;
+    }
+
+    .nav-bar > li {
+        padding     : 0 4px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-bar > li > a {
+        font-size   : 16px !important;
+    }
+
+    .nav-bar > li {
+        padding     : 0 4px !important;
+    }
+}
+
+
+/* -----------------------------------------
+   Honey Pot Form Input Styles
+----------------------------------------- */
+div.hp-one   { display: none; }
+div.hp-two   { height: 0px; width: 0px; overflow: hidden; }
+div.hp-three { position: relative; height: 1px; }
+div.hp-three input { position: absolute; left: -9999px; }

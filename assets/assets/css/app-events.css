@@ -1,0 +1,807 @@
+/* -----------------------------------------
+   Misc Layout
+----------------------------------------- */
+.sticky {
+    margin-left     : 0px;
+    margin-right    : 1em;
+    margin-top      : 0em;
+}
+
+body#home .sticky {
+    margin-left     : 0px;
+    margin-right    : 1em;
+    margin-top      : 3em;
+}
+
+.coming-soon {
+    background-color: #f2f2f2;
+    padding-top     : 10px;
+    padding-bottom  : 20px;
+    margin-bottom   : 0;
+    border          : solid 1px #e6e6e6;
+}
+
+.coming-soon .padding {
+    position        : relative;
+    padding         : 0 10px 0 15px
+}
+
+.coming-soon .date {
+    font-size       : 16px;
+    font-weight     : bold;
+    padding         : 0;
+    margin          : 0 0 5px 0;
+    text-align      : center;
+    text-transform  : uppercase;
+}
+
+.coming-soon h2.city {
+    font-family     : 'Ubuntu Condensed';
+    color           : #fff;
+    text-transform  : uppercase;
+    font-weight     : normal;
+    letter-spacing  : -1px;
+    font-size       : 32px;
+    padding         : 4px 0;
+    text-align      : center;
+    margin-left     : -2%;
+    margin-top      : 0;
+    margin-bottom   : 0;
+    width           : 104%;
+}
+
+div.register-ticket-desc {
+    padding-top: 8px;
+    padding-left: 3px;
+    margin-bottom: 18px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #888;
+}
+
+div.register-ticket-desc:last-child {
+    border-bottom: 0;
+}
+
+div.register-ticket-desc p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+div.register-ticket-desc li {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+div.register-ticket-desc ul {
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+div.register-promo-box {
+    border-top      : 3px solid #000;
+    padding         : 16px 10px 16px 18px;
+    color           : #fff;
+    margin-bottom   : 0px;
+    background-color: #4a4a4a;
+}
+
+div.register-promo-box h4 {
+    color           : #fff;
+    margin          : 0 0 10px 0;
+    font-size       : 20px;
+    font-family     : 'Ubuntu Condensed';
+    line-height     : 1.1em;
+    text-transform  : uppercase;
+}
+
+div.register-promo-box p {
+    color           : #fff;
+    font-size       : 0.8em;
+    line-height     : 1.6em;
+    margin          : 0 0 10px 0;
+    padding         : 0;
+}
+
+
+p.date-loc {
+    font-size       : 13px;
+    margin-top      : 10px;
+    margin-bottom   : 8px;
+    background      : url(/assets/images/site/icons/map.png) no-repeat 0px 0px;
+    padding-left    : 36px;
+}
+
+span.venue {
+    font-family     : 'Ubuntu Condensed';
+    color           : #000000;
+    font-weight     : bold;
+    font-size       : 15px;
+    line-height     : 1.1em;
+}
+
+div.countdown-timer {
+    padding         : 0px 0 20px;
+    border-top      : 1px solid #ccc;
+    border-bottom   : 1px solid #ccc;
+}
+
+div.calendars {
+    font-size       : 11px;
+    margin-top      : 10px;
+    text-align      : left;
+}
+
+
+/* -----------------------------------------
+   Header Styles
+----------------------------------------- */
+h2.event-title {
+    text-align      : center;
+    font-size       : 24px;
+    color           : #000000;
+    font-weight     : normal;
+    line-height     : 1.2em;
+    margin-bottom   : 40px;
+}
+
+div.event-type-header {
+    padding         : 20px;
+    text-align      : center;
+    margin-bottom   : 2px;
+    position        : relative;
+}
+
+div.event-type-header h3 {
+    color           : #fff;
+    margin          : 0;
+    padding         : 0;
+    font-size       : 25px;
+}
+
+div.event-type-header p {
+    color           : #fff;
+    margin          : 5px 0 0 0;
+    padding         : 0;
+    font-family     : 'Gentium Basic', serif;
+    font-size       : 20px;
+    line-height     : 1.3em;
+}
+
+div.event-type-header .arrow-bottom {
+	position        : absolute;
+    bottom          : -14px;
+    right           : 50px;
+    width           : 0;
+	height          : 0;
+	border-top      : 14px solid transparent;
+	border-left     : 14px solid transparent;
+	border-right    : 14px solid transparent;
+    z-index         : 1000;
+}
+
+#pricing .border-marketing .arrow-bottom,
+.bg-marketing .arrow-bottom {
+    border-top-color: #7ac142 !important;
+}
+
+#pricing .border-management .arrow-bottom,
+.bg-management .arrow-bottom {
+    border-top-color: #fdb813 !important;
+}
+
+#pricing .border-sales .arrow-bottom,
+.bg-sales .arrow-bottom {
+    border-top-color: #ee3124 !important;
+}
+
+#pricing .border-leadership .arrow-bottom,
+.bg-leadership .arrow-bottom {
+    border-top-color: #005288 !important;
+}
+
+#pricing .border-small-business .arrow-bottom,
+.bg-small-business .arrow-bottom {
+    border-top-color: #008fc5 !important;
+}
+
+#pricing .border-learning .arrow-bottom,
+.bg-learning .arrow-bottom {
+    border-top-color: #008fc5 !important;
+}
+
+#pricing .border-leadership-women .arrow-bottom,
+.bg-leadership-women .arrow-bottom {
+    border-top-color: #84329b !important;
+}
+
+#pricing .border-innovation .arrow-bottom,
+.bg-innovation .arrow-bottom {
+    border-top-color: #6d2c91 !important;
+}
+
+#pricing .border-general .arrow-bottom,
+.bg-general .arrow-bottom {
+    border-top-color: #ea7f1e !important;
+}
+
+#pricing .border-grey .arrow-bottom,
+.bg-grey .arrow-bottom {
+    background-color: #eeeeee !important;
+}
+
+#pricing .pricing-more-details {
+    color           : #fff;
+    text-decoration : underline;
+}
+
+#pricing .pricing-more-details:hover {
+    color           : #ea7f1e;
+    text-decoration : none;
+}
+
+/* -----------------------------------------
+   Speaker Slide
+----------------------------------------- */
+div.speaker-box {
+    position        : relative;
+    margin-bottom   : 20px;
+}
+
+div.speakers div.speaker-box {
+    margin-bottom   : 0;
+}
+
+div.speaker-box.photo-left {
+
+}
+
+div.speaker-box.photo-right {
+
+}
+
+div.speaker-box .name {
+    width           : 60%;
+    position        : absolute;
+    bottom          : 55%;
+}
+
+div.speaker-box.photo-left .name {
+    right           : 0;
+}
+
+div.speaker-box .name h3 {
+    color           : #fff;
+    margin          : 0;
+    margin-left     : 10px !important;
+}
+
+div.speakers div.speaker-box .name h3 {
+    margin-left     : 30px !important;
+}
+
+div.speaker-box .name-wrapper {
+    position        : absolute;
+    bottom          : 0;
+    vertical-align  : bottom;
+    padding-top     : 15px;
+    width           : 100%;
+}
+
+div.speaker-box.photo-left .name-wrapper {
+    margin-right    : 20px;
+    text-align      : left;
+}
+
+div.speaker-box.photo-right .name-wrapper {
+    /*margin-left     : 20px;*/
+    text-align      : right;
+}
+
+
+div.speaker-box .summary {
+    width           : 60%;
+    height          : 42%;
+    position        : absolute;
+    bottom          : 20px;
+}
+
+div.speaker-box.photo-left .summary {
+    left            : 40%;
+}
+
+div.speaker-box.photo-right .summary {
+    right           : 40%;
+}
+
+div.speaker-box .summary-wrapper {
+    height          : 100%;
+    padding         : 10px;
+}
+
+div.speaker-box.photo-left .summary-wrapper {
+    margin-right    : 20px;
+    text-align      : left;
+}
+
+div.speaker-box.photo-right .summary-wrapper {
+    margin-left     : 20px;
+    text-align      : right;
+    width           : 100%;
+}
+
+div.speaker-box.photo-right .summary-wrapper.left {
+    text-align      : left;
+}
+
+div.speaker-box .summary-wrapper p.text {
+    margin          : 0;
+    padding         : 0;
+    font-family     : 'Gentium Basic', serif;
+    font-size       : 20px;
+    line-height     : 1.3em;
+    font-style      : italic;
+    color           : #fff;
+}
+
+div.speaker-box .summary-wrapper p.more {
+    position        : absolute;
+    bottom          : 0px;
+}
+
+div.speaker-box.photo-left .summary-wrapper p.more {
+    right           : 35px;
+}
+
+div.speaker-box.photo-right .summary-wrapper p.more {
+    left            : 35px;
+}
+
+
+/* -----------------------------------------
+   Pricing Table
+----------------------------------------- */
+
+#pricing .call-to-action {
+    margin          : 20px 0;
+}
+
+#pricing h3 {
+    font-family     : Ubuntu, sans-serif;
+    font-weight     : normal;
+    font-size       : 24px;
+    margin          : 0;
+    text-align      : center;
+    line-height     : 29px;
+    color           : #000;
+}
+
+#pricing h4 {
+    font-family     : Ubuntu, sans-serif;
+    font-weight     : normal;
+    font-size       : 19px;
+    margin          : 0;
+    text-align      : center;
+    line-height     : 24px;
+}
+
+#pricing .price-box {
+    border-width    : 1px;
+    border-style    : solid;
+    padding         : 25px 25px 20px;
+    position        : relative;
+}
+
+#pricing .price-box .container {
+
+}
+
+#pricing .price-box .register-box {
+    padding         : 15px 0;
+    text-align      : center;
+    display         : none;
+}
+
+#pricing .arrow-bottom {
+	position        : absolute;
+    bottom          : -14px;
+    right           : 46%;
+    width           : 0;
+	height          : 0;
+	border-top      : 14px solid transparent;
+	border-left     : 14px solid transparent;
+	border-right    : 14px solid transparent;
+    z-index         : 1000;
+}
+
+#pricing .price-box-bottom {
+    margin-bottom   : 16px;
+}
+
+#pricing .price-box-bottom img {
+    display         : block;
+    width           : 100%;
+}
+
+#pricing .price-box h4 {
+    color           : #282828;
+    font-family     : 'Ubuntu Condensed';
+    font-weight     : bold;
+    font-size       : 24px;
+    margin          : 0;
+    text-align      : center;
+}
+
+#pricing .price-box p {
+    text-align          : center;
+}
+
+#pricing .price-box p.border {
+    border-width        : 1px 0 1px 0;
+    border-style        : solid;
+    padding             : 18px 0;
+    margin              : 18px auto;
+}
+
+#pricing .price-box .price-dollar {
+    padding             : 20px 20px 0;
+    text-align          : center;
+    font-size           : 48px;
+    font-weight         : bold;
+    color               : #fff;
+}
+
+#pricing .price-box .price-dollar sup {
+    font-size           : 22px;
+}
+
+#pricing .price-box .price-dollar .tax {
+    font-size           : 13px;
+    line-height         : 13px !important;
+    font-weight         : normal;
+}
+
+#pricing div.hide {
+    display : none;
+}
+
+#pricing .price-box-footer {
+    padding     : 20px;
+}
+
+#pricing .price-box-footer h3 {
+    text-align      : left;
+    color           : #fff;
+    margin-top      : 4px;
+    font-weight     : bold;
+    font-size       : 20px;
+    text-transform  : uppercase;
+}
+
+#pricing .price-box .extra-text {
+    line-height     : 1.4em;
+    margin-bottom   : 16px;
+    background      : #707070;
+    padding         : 15px;
+    text-align      : center;
+    color           : #fff;
+}
+
+
+#pricing .price-box .extra-text ul {
+    list-style-position: inside;
+}
+
+
+/* -----------------------------------------
+   Sponsors
+----------------------------------------- */
+.sponsors .block-grid {
+	overflow		: visible !important;
+}
+
+/* -----------------------------------------
+   Home Page Bottom Boxes
+----------------------------------------- */
+.callout-box {
+    text-align          : center;
+    height              : 200px;
+    padding             : 10px 20px 80px 20px;
+    background-repeat   : no-repeat;
+    background-position : 50% 85%;
+    cursor              : pointer;
+}
+
+.callout-box h2 {
+    color           : #fff;
+    font-size       : 24px;
+    text-transform  : uppercase;
+}
+
+.callout-box.ticket {
+    background-image    : url( /assets/images/site/icons/event-ticket.png );
+}
+
+.callout-box.ticket h2 {
+    padding-top         : 10px;
+}
+
+.callout-box.agenda {
+    background-image    : url( /assets/images/site/icons/event-calendar.png );
+}
+
+.callout-box.agenda h2 {
+    padding-top         : 24px;
+}
+
+.callout-box.faq {
+    background-image    : url( /assets/images/site/icons/event-faq.png );
+}
+
+.callout-box.faq h2 {
+
+}
+
+/* -----------------------------------------
+   Testimonials
+----------------------------------------- */
+body.microsite #testimonial-slider .panel {
+    background          : url( /assets/images/site/bg/quote.png ) no-repeat;
+    padding             : 12px 30px 0 21px;
+}
+
+body.microsite #testimonial-slider .panel h3 {
+    color           : #464646;
+    font-size       : 24px;
+    line-height     : 1.4em;
+    font-weight     : bold;
+}
+
+body.microsite #testimonial-slider .panel p {
+    line-height     : 1.4em;
+    font-size       : 14px;
+    margin-top      : 10px !important;
+    padding-right   : 5px;
+}
+
+body.microsite #testimonial-slider {
+    height          : auto !important;
+    min-height      : 10px !important;
+}
+
+body.microsite .liquid-slider-wrapper .liquid-nav-right-arrow,
+body.microsite .liquid-slider-wrapper .liquid-nav-left-arrow {
+    margin-top      : 90px;
+}
+
+#extension {
+    width           : 45px;
+}
+
+.button {
+    border-color    : #ff7900;
+}
+
+.button:hover {
+    background-color: #ff7900;
+}
+
+
+/* less than 1000 */
+@media only screen and (max-width: 999px) {
+
+    div#clock p span {
+        font-size   : 22px !important;
+        line-height : 30px !important;
+    }
+
+    div#clock div.dots {
+        font-size   : 22px !important;
+        line-height : 35px !important;
+    }
+
+    .coming-soon h5 {
+        font-size   : 16px !important;
+    }
+
+    div.register-promo-box h4 {
+        font-size   : 15px !important;
+    }
+
+    div.event-type-header h3 {
+        font-size   : 23px;
+    }
+
+    .coming-soon h2.city {
+        font-size   : 28px;
+    }
+}
+
+/* less than 1000 && more than 923*/
+@media only screen and (max-width: 999px) and (min-width: 924px) {
+    div.speaker-box .name h3 {
+        font-size   : 22px;
+    }
+
+    div.speaker-box .summary-wrapper p.text {
+        font-size   : 14px;
+    }
+
+    div.speaker-box .summary-wrapper p.more {
+        bottom      : -10px;
+    }
+
+    #pricing .price-box .price-dollar {
+        font-size   : 36px;
+    }
+
+    #pricing .price-box .price-dollar sup {
+        font-size   : 18px;
+    }
+
+    #pricing .price-box .price-dollar {
+        padding-top : 10px;
+    }
+
+    #pricing .price-box-footer h3 {
+        font-size   : 18px;
+    }
+}
+
+
+/* less than 768 */
+@media only screen and (max-width: 768px) {
+    div.speaker-box .name h3 {
+        font-size   : 22px;
+    }
+
+    div.speaker-box .summary-wrapper p.text {
+        font-size   : 14px;
+    }
+
+    #pricing .price-box-footer {
+        padding     : 10px 20px 20px;
+    }
+
+    #pricing .price-box-footer div.eight h3 {
+        text-align  : center;
+    }
+}
+
+/* less than 960 */
+@media only screen and (max-width: 560px) {
+    div.speaker-box .name h3 {
+        font-size   : 16px;
+    }
+
+    div.speaker-box .summary-wrapper p.text {
+        font-size   : 13px;
+    }
+
+    div.speaker-box .summary-wrapper p.more {
+        display     : none;
+    }
+
+    div.event-type-header h3 {
+        font-size   : 19px;
+    }
+
+    div.event-type-header p {
+        font-size   : 16px;
+    }
+
+    div.speaker-box .summary {
+        height      : 45%;
+        bottom      : 10px;
+    }
+
+    div.speaker-box .summary-wrapper {
+        padding     : 5px;
+    }
+
+    #pricing h3 {
+        font-size   : 20px;
+    }
+
+    #pricing h4 {
+        font-size   : 16px;
+    }
+
+    #cvv {
+        display     : block;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    div.speaker-box .summary {
+        display     : none;
+    }
+
+    div.speaker-box .name {
+        bottom      : 30%;
+    }
+
+    body.register div.form-fields div.text label,
+    body.register div.form-fields div.select label {
+        display     : block;
+        float       : none;
+    }
+
+    body.register div.form-fields input[type=text],
+    body.register div.form-fields select {
+        display     : block;
+        float       : none;
+        margin-left : 0;
+        margin-right: 0;
+    }
+
+    #industry {
+        width       : 300px !important;
+    }
+
+    #card_expire_month, #card_expire_year {
+        display     : inline;
+    }
+
+
+    img.credit-card {
+        display     : none;
+    }
+}
+
+
+/* french */
+
+body.lang-fre .nav-bar > li > a {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1080px) {
+    body.lang-fre .nav-bar > li > a {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    body.lang-fre .nav-bar > li > a {
+        font-size: 14px !important;
+    }
+}ut[type=text],
+    body.register div.form-fields select {
+        display     : block;
+        float       : none;
+        margin-left : 0;
+        margin-right: 0;
+    }
+
+    #industry {
+        width       : 300px !important;
+    }
+
+    #card_expire_month, #card_expire_year {
+        display     : inline;
+    }
+
+
+    img.credit-card {
+        display     : none;
+    }
+}
+
+
+/* french */
+
+body.lang-fre .nav-bar > li > a {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1080px) {
+    body.lang-fre .nav-bar > li > a {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    body.lang-fre .nav-bar > li > a {
+        font-size: 14px !important;
+    }
+}
